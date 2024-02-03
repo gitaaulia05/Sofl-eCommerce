@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.navbar-fixed {
+    @apply fixed z-[0] mt-2 left-[23rem] transition duration-1000;
+    position: fixed;
+    top: 0;
+}
